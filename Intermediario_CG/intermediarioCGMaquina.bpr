@@ -2111,9 +2111,9 @@
 <org.eventb.core.prIdent name="FINANCIERO" org.eventb.core.type="TIPO_UNIDAD"/>
 <org.eventb.core.prIdent name="TIPO_UNIDAD" org.eventb.core.type="ℙ(TIPO_UNIDAD)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="01_ADICCIONAR_DOMINIO_UNIDAD/grd3/WD" org.eventb.core.confidence="1000" org.eventb.core.prFresh="x" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="p1" org.eventb.core.prSets="DOMINIOS,UNIDADES">
 <org.eventb.core.lang name="L"/>
@@ -3721,8 +3721,8 @@
 <org.eventb.core.prIdent name="FINANCIERO" org.eventb.core.type="TIPO_UNIDAD"/>
 <org.eventb.core.prIdent name="TIPO_UNIDAD" org.eventb.core.type="ℙ(TIPO_UNIDAD)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="02_RETIRAR_RECURSO_DOMINIO/inv5/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
@@ -4081,9 +4081,9 @@
 <org.eventb.core.prIdent name="FINANCIERO" org.eventb.core.type="TIPO_UNIDAD"/>
 <org.eventb.core.prIdent name="TIPO_UNIDAD" org.eventb.core.type="ℙ(TIPO_UNIDAD)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
 <org.eventb.core.prReas name="r3" org.eventb.core.prRID="org.eventb.core.seqprover.conj:0"/>
 <org.eventb.core.prReas name="r2" org.eventb.core.prRID="org.eventb.core.seqprover.impI"/>
+<org.eventb.core.prReas name="r4" org.eventb.core.prRID="org.eventb.core.seqprover.isFunGoal"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.allI"/>
 </org.eventb.core.prProof>
@@ -4474,8 +4474,8 @@
 <org.eventb.core.prIdent name="FINANCIERO" org.eventb.core.type="TIPO_UNIDAD"/>
 <org.eventb.core.prIdent name="TIPO_UNIDAD" org.eventb.core.type="ℙ(TIPO_UNIDAD)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 <org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
+<org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.typeRewrites:1"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="02_RETIRAR_RECURSO_DOMINIO/inv6/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prGoal="p0" org.eventb.core.prHyps="" org.eventb.core.prSets="DOMINIOS,RECURSO,REGISTRO">
 <org.eventb.core.lang name="L"/>
@@ -4638,8 +4638,8 @@
 <org.eventb.core.prIdent name="FINANCIERO" org.eventb.core.type="TIPO_UNIDAD"/>
 <org.eventb.core.prIdent name="TIPO_UNIDAD" org.eventb.core.type="ℙ(TIPO_UNIDAD)"/>
 </org.eventb.core.prPred>
-<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 <org.eventb.core.prReas name="r1" org.eventb.core.prRID="org.eventb.core.seqprover.autoRewritesL4:0"/>
+<org.eventb.core.prReas name="r0" org.eventb.core.prRID="org.eventb.core.seqprover.partitionRewrites"/>
 </org.eventb.core.prProof>
 <org.eventb.core.prProof name="INITIALISATION/inv11/INV" org.eventb.core.confidence="0" org.eventb.core.prFresh="" org.eventb.core.prHyps="">
 <org.eventb.core.lang name="L"/>
